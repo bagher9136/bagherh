@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">NewBook</string>
+    <string name="contents">فهرست</string>
+    <string name="next">بعدی</string>
+    <string name="prev">قبلی</string>
+    <string name="chapter">فصل:</string>
+    <string name="page">صفحه</string>
+    <string name="from">از</string>
+    <string name="search">عبارت جستجو</string>
+    <string name="search_titles">در عناوین</string>
+    <string name="search_texts">در متن</string>
+    <string name="chapter_title">فصل</string>
+    <string name="section_title">بخش</string>
+    <string name="search_btn">جستجو</string>
+    <string name="bookmarks">علاقمندی ها</string>
+    <string name="areyousure">مطمئنی میخوای حذفش کنی؟</string>
+    <string name="cancel">اشتباه شد</string>
+    <string name="ok">آره بابا</string>
+    <string name="night_mode">night mode</string>
+    <string name="day_mode">day mode</string>
+    <string name="font_size">font_size</string>
+    <string name="text_size">text_size</string>
+</resources>

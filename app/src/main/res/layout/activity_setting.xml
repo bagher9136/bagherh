@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Setting">
+    <TextView
+        android:id="@+id/tv_txt_preview"
+        android:text=""
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"/>
+    <TextView
+        android:id="@+id/tv_set_font"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_below="@id/tv_txt_preview"
+        />
+    <Spinner
+        android:id="@+id/sp_select_font"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_set_font"
+
+        >
+
+    </Spinner>
+    <RadioButton
+        android:id="@+id/rb_day"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/day_mode"
+        android:layout_below="@id/sp_select_font"/>
+    <RadioButton
+        android:id="@+id/rb_night"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/night_mode"
+        android:layout_below="@id/sp_select_font"
+        android:layout_toRightOf="@id/rb_day"
+        />
+    <LinearLayout
+        android:id="@+id/linear_font"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_alignParentBottom="true"
+        >
+        <SeekBar
+            android:id="@+id/sb_font_size"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:progress="10"
+            android:max="100"/>
+        <SeekBar
+            android:id="@+id/sb_line_space"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:progress="20"
+            android:max="100"
+            android:layout_marginTop="50dp"
+
+            />
+
+
+    </LinearLayout>
+
+</RelativeLayout>
